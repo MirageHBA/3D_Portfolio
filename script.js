@@ -166,11 +166,12 @@ function files(index) {
       ./Images/ezgif-frame-116.png
       ./Images/ezgif-frame-117.png
       ./Images/ezgif-frame-118.png
-
  `;
-  return data.split("\n")[index];
+  return data
+    .trim()                 // remove first & last empty lines
+    .split("\n")            // split into array
+    .map(line => line.trim())[index]; // 🔥 remove leading spaces
 }
-
 const frameCount = 118;
 
 const Images = [];
