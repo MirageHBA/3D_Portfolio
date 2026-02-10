@@ -166,25 +166,26 @@ function files(index) {
       ./Images/ezgif-frame-116.png
       ./Images/ezgif-frame-117.png
       ./Images/ezgif-frame-118.png
-
  `;
-  return data.split("\n")[index];
+  return data
+    .trim()                 // remove first & last empty lines
+    .split("\n")            // split into array
+    .map(line => line.trim())[index]; // 🔥 remove leading spaces
 }
-
 const frameCount = 118;
 
-const images = [];
-const imageSeq = {
+const Images = [];
+const Imageseq = {
   frame: 1,
 };
 
 for (let i = 0; i < frameCount; i++) {
   const img = new Image();
   img.src = files(i);
-  images.push(img);
+  Images.push(img);
 }
 
-gsap.to(imageSeq, {
+gsap.to(Imageseq, {
   frame: frameCount - 1,
   snap: "frame",
   ease: `none`,
@@ -198,10 +199,10 @@ gsap.to(imageSeq, {
   onUpdate: render,
 });
 
-images[1].onload = render;
+Images[1].onload = render;
 
 function render() {
-  scaleImage(images[imageSeq.frame], context);
+  scaleImage(Images[Imageseq.frame], context);
 }
 
 function scaleImage(img, ctx) {
