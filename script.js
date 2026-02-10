@@ -48,124 +48,124 @@ window.addEventListener("resize", function () {
 
 function files(index) {
   var data = `
-      ./images/ezgif-frame-001.png
-      ./images/ezgif-frame-002.png
-      ./images/ezgif-frame-003.png  
-      ./images/ezgif-frame-004.png
-      ./images/ezgif-frame-005.png
-      ./images/ezgif-frame-006.png
-      ./images/ezgif-frame-007.png
-      ./images/ezgif-frame-008.png
-      ./images/ezgif-frame-009.png
-      ./images/ezgif-frame-010.png
-      ./images/ezgif-frame-011.png
-      ./images/ezgif-frame-012.png
-      ./images/ezgif-frame-013.png
-      ./images/ezgif-frame-014.png
-      ./images/ezgif-frame-015.png
-      ./images/ezgif-frame-016.png
-      ./images/ezgif-frame-017.png
-      ./images/ezgif-frame-018.png
-      ./images/ezgif-frame-019.png
-      ./images/ezgif-frame-020.png
-      ./images/ezgif-frame-021.png
-      ./images/ezgif-frame-022.png
-      ./images/ezgif-frame-023.png
-      ./images/ezgif-frame-024.png
-      ./images/ezgif-frame-025.png
-      ./images/ezgif-frame-026.png
-      ./images/ezgif-frame-027.png
-      ./images/ezgif-frame-028.png
-      ./images/ezgif-frame-029.png
-      ./images/ezgif-frame-030.png
-      ./images/ezgif-frame-031.png
-      ./images/ezgif-frame-032.png
-      ./images/ezgif-frame-033.png
-      ./images/ezgif-frame-034.png
-      ./images/ezgif-frame-035.png
-      ./images/ezgif-frame-036.png
-      ./images/ezgif-frame-037.png
-      ./images/ezgif-frame-038.png
-      ./images/ezgif-frame-039.png
-      ./images/ezgif-frame-040.png
-      ./images/ezgif-frame-041.png
-      ./images/ezgif-frame-042.png
-      ./images/ezgif-frame-043.png
-      ./images/ezgif-frame-044.png
-      ./images/ezgif-frame-045.png
-      ./images/ezgif-frame-046.png
-      ./images/ezgif-frame-047.png
-      ./images/ezgif-frame-048.png
-      ./images/ezgif-frame-049.png
-      ./images/ezgif-frame-050.png
-      ./images/ezgif-frame-051.png
-      ./images/ezgif-frame-052.png
-      ./images/ezgif-frame-053.png
-      ./images/ezgif-frame-054.png
-      ./images/ezgif-frame-055.png
-      ./images/ezgif-frame-056.png
-      ./images/ezgif-frame-057.png
-      ./images/ezgif-frame-058.png
-      ./images/ezgif-frame-059.png
-      ./images/ezgif-frame-060.png
-      ./images/ezgif-frame-061.png
-      ./images/ezgif-frame-062.png
-      ./images/ezgif-frame-063.png
-      ./images/ezgif-frame-064.png
-      ./images/ezgif-frame-065.png
-      ./images/ezgif-frame-066.png
-      ./images/ezgif-frame-067.png
-      ./images/ezgif-frame-068.png
-      ./images/ezgif-frame-069.png
-      ./images/ezgif-frame-070.png
-      ./images/ezgif-frame-071.png
-      ./images/ezgif-frame-072.png
-      ./images/ezgif-frame-073.png
-      ./images/ezgif-frame-074.png
-      ./images/ezgif-frame-075.png
-      ./images/ezgif-frame-076.png
-      ./images/ezgif-frame-077.png
-      ./images/ezgif-frame-078.png
-      ./images/ezgif-frame-079.png
-      ./images/ezgif-frame-080.png
-      ./images/ezgif-frame-081.png
-      ./images/ezgif-frame-082.png
-      ./images/ezgif-frame-083.png
-      ./images/ezgif-frame-084.png
-      ./images/ezgif-frame-085.png
-      ./images/ezgif-frame-086.png
-      ./images/ezgif-frame-087.png
-      ./images/ezgif-frame-088.png
-      ./images/ezgif-frame-089.png
-      ./images/ezgif-frame-090.png
-      ./images/ezgif-frame-091.png
-      ./images/ezgif-frame-092.png
-      ./images/ezgif-frame-093.png
-      ./images/ezgif-frame-094.png
-      ./images/ezgif-frame-095.png
-      ./images/ezgif-frame-096.png
-      ./images/ezgif-frame-097.png
-      ./images/ezgif-frame-098.png
-      ./images/ezgif-frame-099.png
-      ./images/ezgif-frame-100.png
-      ./images/ezgif-frame-101.png
-      ./images/ezgif-frame-102.png
-      ./images/ezgif-frame-103.png
-      ./images/ezgif-frame-104.png
-      ./images/ezgif-frame-105.png
-      ./images/ezgif-frame-106.png
-      ./images/ezgif-frame-107.png
-      ./images/ezgif-frame-108.png
-      ./images/ezgif-frame-109.png
-      ./images/ezgif-frame-110.png
-      ./images/ezgif-frame-111.png
-      ./images/ezgif-frame-112.png
-      ./images/ezgif-frame-113.png
-      ./images/ezgif-frame-114.png
-      ./images/ezgif-frame-115.png
-      ./images/ezgif-frame-116.png
-      ./images/ezgif-frame-117.png
-      ./images/ezgif-frame-118.png
+      ./Images/ezgif-frame-001.png
+      ./Images/ezgif-frame-002.png
+      ./Images/ezgif-frame-003.png  
+      ./Images/ezgif-frame-004.png
+      ./Images/ezgif-frame-005.png
+      ./Images/ezgif-frame-006.png
+      ./Images/ezgif-frame-007.png
+      ./Images/ezgif-frame-008.png
+      ./Images/ezgif-frame-009.png
+      ./Images/ezgif-frame-010.png
+      ./Images/ezgif-frame-011.png
+      ./Images/ezgif-frame-012.png
+      ./Images/ezgif-frame-013.png
+      ./Images/ezgif-frame-014.png
+      ./Images/ezgif-frame-015.png
+      ./Images/ezgif-frame-016.png
+      ./Images/ezgif-frame-017.png
+      ./Images/ezgif-frame-018.png
+      ./Images/ezgif-frame-019.png
+      ./Images/ezgif-frame-020.png
+      ./Images/ezgif-frame-021.png
+      ./Images/ezgif-frame-022.png
+      ./Images/ezgif-frame-023.png
+      ./Images/ezgif-frame-024.png
+      ./Images/ezgif-frame-025.png
+      ./Images/ezgif-frame-026.png
+      ./Images/ezgif-frame-027.png
+      ./Images/ezgif-frame-028.png
+      ./Images/ezgif-frame-029.png
+      ./Images/ezgif-frame-030.png
+      ./Images/ezgif-frame-031.png
+      ./Images/ezgif-frame-032.png
+      ./Images/ezgif-frame-033.png
+      ./Images/ezgif-frame-034.png
+      ./Images/ezgif-frame-035.png
+      ./Images/ezgif-frame-036.png
+      ./Images/ezgif-frame-037.png
+      ./Images/ezgif-frame-038.png
+      ./Images/ezgif-frame-039.png
+      ./Images/ezgif-frame-040.png
+      ./Images/ezgif-frame-041.png
+      ./Images/ezgif-frame-042.png
+      ./Images/ezgif-frame-043.png
+      ./Images/ezgif-frame-044.png
+      ./Images/ezgif-frame-045.png
+      ./Images/ezgif-frame-046.png
+      ./Images/ezgif-frame-047.png
+      ./Images/ezgif-frame-048.png
+      ./Images/ezgif-frame-049.png
+      ./Images/ezgif-frame-050.png
+      ./Images/ezgif-frame-051.png
+      ./Images/ezgif-frame-052.png
+      ./Images/ezgif-frame-053.png
+      ./Images/ezgif-frame-054.png
+      ./Images/ezgif-frame-055.png
+      ./Images/ezgif-frame-056.png
+      ./Images/ezgif-frame-057.png
+      ./Images/ezgif-frame-058.png
+      ./Images/ezgif-frame-059.png
+      ./Images/ezgif-frame-060.png
+      ./Images/ezgif-frame-061.png
+      ./Images/ezgif-frame-062.png
+      ./Images/ezgif-frame-063.png
+      ./Images/ezgif-frame-064.png
+      ./Images/ezgif-frame-065.png
+      ./Images/ezgif-frame-066.png
+      ./Images/ezgif-frame-067.png
+      ./Images/ezgif-frame-068.png
+      ./Images/ezgif-frame-069.png
+      ./Images/ezgif-frame-070.png
+      ./Images/ezgif-frame-071.png
+      ./Images/ezgif-frame-072.png
+      ./Images/ezgif-frame-073.png
+      ./Images/ezgif-frame-074.png
+      ./Images/ezgif-frame-075.png
+      ./Images/ezgif-frame-076.png
+      ./Images/ezgif-frame-077.png
+      ./Images/ezgif-frame-078.png
+      ./Images/ezgif-frame-079.png
+      ./Images/ezgif-frame-080.png
+      ./Images/ezgif-frame-081.png
+      ./Images/ezgif-frame-082.png
+      ./Images/ezgif-frame-083.png
+      ./Images/ezgif-frame-084.png
+      ./Images/ezgif-frame-085.png
+      ./Images/ezgif-frame-086.png
+      ./Images/ezgif-frame-087.png
+      ./Images/ezgif-frame-088.png
+      ./Images/ezgif-frame-089.png
+      ./Images/ezgif-frame-090.png
+      ./Images/ezgif-frame-091.png
+      ./Images/ezgif-frame-092.png
+      ./Images/ezgif-frame-093.png
+      ./Images/ezgif-frame-094.png
+      ./Images/ezgif-frame-095.png
+      ./Images/ezgif-frame-096.png
+      ./Images/ezgif-frame-097.png
+      ./Images/ezgif-frame-098.png
+      ./Images/ezgif-frame-099.png
+      ./Images/ezgif-frame-100.png
+      ./Images/ezgif-frame-101.png
+      ./Images/ezgif-frame-102.png
+      ./Images/ezgif-frame-103.png
+      ./Images/ezgif-frame-104.png
+      ./Images/ezgif-frame-105.png
+      ./Images/ezgif-frame-106.png
+      ./Images/ezgif-frame-107.png
+      ./Images/ezgif-frame-108.png
+      ./Images/ezgif-frame-109.png
+      ./Images/ezgif-frame-110.png
+      ./Images/ezgif-frame-111.png
+      ./Images/ezgif-frame-112.png
+      ./Images/ezgif-frame-113.png
+      ./Images/ezgif-frame-114.png
+      ./Images/ezgif-frame-115.png
+      ./Images/ezgif-frame-116.png
+      ./Images/ezgif-frame-117.png
+      ./Images/ezgif-frame-118.png
 
  `;
   return data.split("\n")[index];
@@ -173,18 +173,18 @@ function files(index) {
 
 const frameCount = 118;
 
-const images = [];
-const imageseq = {
+const Images = [];
+const Imageseq = {
   frame: 1,
 };
 
 for (let i = 0; i < frameCount; i++) {
   const img = new Image();
   img.src = files(i);
-  images.push(img);
+  Images.push(img);
 }
 
-gsap.to(imageseq, {
+gsap.to(Imageseq, {
   frame: frameCount - 1,
   snap: "frame",
   ease: `none`,
@@ -192,16 +192,16 @@ gsap.to(imageseq, {
     scrub: 0.15,
     trigger: `#page>canvas`,
     start: `top top`,
-    end: `10000% top`,
+    end: `600% top`,
     scroller: `#main`,
   },
   onUpdate: render,
 });
 
-images[1].onload = render;
+Images[1].onload = render;
 
 function render() {
-  scaleImage(images[imageseq.frame], context);
+  scaleImage(Images[Imageseq.frame], context);
 }
 
 function scaleImage(img, ctx) {
